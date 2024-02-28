@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(201, 195, 202), rgb(71, 152, 199));
+}
+
+.box{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 15%;
+    text-align: center;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    outline: none;
+    color: rgb(28, 28, 28);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.botaoNovo{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.botaoNovo:hover{
+    background-color: rgb(66, 64, 64);
+}
