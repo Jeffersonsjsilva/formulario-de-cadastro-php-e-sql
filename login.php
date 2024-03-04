@@ -8,12 +8,10 @@
 </head>
 <body>
     <div class="box">
-        <h1>Login</h1>
+        <h1>Realize o login</h1>
         <form action="testarlogar.php" method="POST">
             <input type="text" name="email" placeholder="E-mail" class="inputUser" required>
-            <br><br>
             <input type="password" name="senha" placeholder="Senha" class="inputUser" required>
-            <br><br><br>
             <input class="botaoNovo" type="submit" name="submit" value="Enviar" class="inputUser">
         </form>
     </div>

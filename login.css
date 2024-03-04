@@ -3,6 +3,26 @@ body{
     background-image: linear-gradient(to right, rgb(201, 195, 202), rgb(71, 152, 199));
 }
 
+
+
+/* div{
+    background-color: rgba(238,235,235,0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: blue;
+}
+
+input{
+    padding: 15px;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+} */
 .box{
     color: black;
     position: absolute;
@@ -14,6 +34,7 @@ body{
     border-radius: 15px;
     width: 15%;
     text-align: center;
+    padding: 50px;
 }
 .inputUser{
     background: none;
@@ -24,6 +45,7 @@ body{
     font-size: 15px;
     width: 100%;
     letter-spacing: 2px;
+    margin: 20px 0;
 }
 
 .botaoNovo{
@@ -35,6 +57,7 @@ body{
     width: 100%;
     font-size: 15px;
     cursor: pointer;
+    margin-top: 30px;
 }
 .botaoNovo:hover{
     background-color: rgb(66, 64, 64);
