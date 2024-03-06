@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+//print_r($_SESSION);
 
 if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
 {
@@ -38,5 +39,6 @@ else
     </div>
 </nav>
     <h1>Acessou o sistema</h1>
+    
 </body>
 </html>
